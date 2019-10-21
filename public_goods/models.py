@@ -135,7 +135,7 @@ class Player(BasePlayer):
 
     round_two_mode = models.StringField(
         choices=[
-            ["por respuesta", "Pago por respuesta ($200 por cada suma correcta)"],
+            ["por respuesta", "Pago por respuesta ($250 por cada suma correcta)"],
             ["torneo", "Torneo ($1.000 por cada suma correcta si resuelves más sumas correctas que los otros miembros en la Tarea 1, en caso contrario recibes $0)."]
         ],
         widget=widgets.RadioSelect
@@ -144,7 +144,7 @@ class Player(BasePlayer):
     round_four_mode = models.StringField(
         choices=[
             ["por respuesta", (
-                "1. Pago por Pregunta ($200 por cada suma correcta en Etapa 3)"
+                "1. Pago por Pregunta ($250 por cada suma correcta en Etapa 3)"
             )],
             ["torneo", (
                 "2. Torneo ($1000 por cada suma correcta si resolviste más "
