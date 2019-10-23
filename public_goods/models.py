@@ -158,7 +158,7 @@ class Player(BasePlayer):
     round_seven_mode = models.StringField(
         choices=[
             ["por respuesta", (
-                "1. Tarifa por Pregunta ($200 por cada suma correcta en la "
+                "1. Tarifa por Pregunta ($250 por cada suma correcta en la "
                 "Etapa 3)."
             )],
             ["torneo", (
