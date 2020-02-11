@@ -31,7 +31,7 @@ class RoundOneIntro(Page):
 class RoundOneGame(Page):
     form_model = "player"
     form_fields = ["correct_answers_round_one"]
-    timeout_seconds = 240
+    timeout_seconds = 120
     timer_text = "Tiempo restante"
     timeout_submission = {'accept': True}
 
@@ -44,7 +44,7 @@ class RoundTwoIntro(Page):
 class RoundTwoGame(Page):
     form_model = "player"
     form_fields = ["correct_answers_round_two"]
-    timeout_seconds = 240
+    timeout_seconds = 120
     timer_text = "Tiempo restante"
     timeout_submission = {'accept': True}
 
@@ -56,7 +56,7 @@ class RoundThreeIntro(Page):
 class RoundThreeGame(Page):
     form_model = "player"
     form_fields = ["correct_answers_round_three"]
-    timeout_seconds = 240
+    timeout_seconds = 120
     timer_text = "Tiempo restante"
     timeout_submission = {'accept': True}
 
