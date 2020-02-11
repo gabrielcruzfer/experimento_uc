@@ -147,7 +147,7 @@ class Player(BasePlayer):
                 "1. Pago por Pregunta ($250 por cada suma correcta en Etapa 3)"
             )],
             ["torneo", (
-                "2. Torneo ($1000 por cada suma correcta si resolviste más "
+                "2. Torneo ($1.000 por cada suma correcta si resolviste más "
                 "sumas correctas que el resto de los participantes en la "
                 "Etapa 3. En caso contrario, recibirás $0)"
             )]
